@@ -1,6 +1,19 @@
 call pathogen#infect()
 
 
+"设置vundle
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'scrooloose/nerdtree'  "文件浏览
+Bundle 'majutsushi/tagbar'    "代码符号
+Bundle 'wesleyche/SrcExpl'    "类似sourceInsight的代码预览窗口
+filetype plugin indent on     " required!
+"vundle设置完毕
+
 set encoding=utf-8
 filetype plugin indent on
 set shiftwidth=4
@@ -81,3 +94,4 @@ nnoremap <silent> <F4> :TagbarToggle<CR>
 "设置自动换行  
 set wrap
 
+"Bundle 'Valloric/YouCompleteMe'
