@@ -14,7 +14,8 @@ set wildmenu
 set laststatus=2
 set confirm
 set nocompatible
-"不兼容模式 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1 
+"不兼容模式 
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1 
 
 "powerline{
  set guifont=PowerlineSymbols\ for\ Powerline
